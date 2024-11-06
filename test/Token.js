@@ -8,16 +8,15 @@ describe("Token contract", function () {
     const hardhatToken = await ethers.deployContract("Token");
 
     const ownerBalance = await hardhatToken.balanceOf(owner.address);
+    console.log(ownerBalance)
     expect(await hardhatToken.totalSupply()).to.equal(ownerBalance);
   });
 
 
 
-
-
   it("Should transfer tokens between accounts", async function() {
     const [owner, addr1, addr2] = await ethers.getSigners();
-    console.log(addr1,addr2,owner)
+    
     const hardhatToken = await ethers.deployContract("Token");
 
     // Transfer 50 tokens from owner to addr1
@@ -27,6 +26,9 @@ describe("Token contract", function () {
     // Transfer 50 tokens from addr1 to addr2
     await hardhatToken.connect(addr1).transfer(addr2.address, 50);
     expect(await hardhatToken.balanceOf(addr2.address)).to.equal(50);
+
+    const ownerBalance = await hardhatToken.balanceOf(owner.address);
+    console.log(ownerBalance)
   });
 
 
