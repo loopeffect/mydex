@@ -11,13 +11,6 @@ function Navbar() {
             <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
             <div class="container-fluid">
             <a class="navbar-brand" href="#">MyDex</a>
-            
-
-
-
-
-
-
             <button
           className="navbar-toggler"
           type="button"
