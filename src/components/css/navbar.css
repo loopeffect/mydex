@@ -11,11 +11,24 @@ ul.navbar-nav {
   .navbar {
     grid-row: 1;
     background-color: #333;
-    color: #fff;
+    color: #ffffff;
     padding: 10px;
+    font-weight: 700;
+    font-family: "Itim", cursive;
+    font-size: 18px;
   }
   
   .hero-content {
     grid-row: 2;
     padding: 20px;
   }
+  .navbar-brand{
+    font-weight: 700;
+    font-family: "Itim", cursive;
+    color: chocolate;
+  }
+
+ .navbar-toggler{
+  border: none;
+ }
+  
