@@ -1,0 +1,21 @@
+ul.navbar-nav {
+    margin-right: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr; /* Adjust the first row's height as needed */
+    gap: 20px; /* Adjust the gap between rows as needed */
+  }
+  
+  .navbar {
+    grid-row: 1;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .hero-content {
+    grid-row: 2;
+    padding: 20px;
+  }

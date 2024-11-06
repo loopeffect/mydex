@@ -1,0 +1,32 @@
+h3.presale {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+h4.timer {
+    text-align: center;
+    margin-top: 7%;
+    font-size: 25px;
+    font-weight: 700;
+    
+}
+.formdiv {
+    border: solid;
+    padding: 44px;
+    border-radius: 40px;
+    background-color: gray  ;
+}
+input.inputfields{
+
+    margin-top: 4%;
+    margin-bottom: 10%;
+    margin-right: 2%;
+    margin-left: 2%;
+    width: 95%;
+}
+label.label{
+    margin-top: 15%;
+    font-size: 25px;
+    font-weight: 700;
+}
