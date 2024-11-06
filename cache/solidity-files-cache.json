@@ -36,6 +36,46 @@
       "artifacts": [
         "Token"
       ]
+    },
+    "C:\\Users\\pc\\Documents\\New folder (2)\\DEX\\mydex\\contracts\\Presale.sol": {
+      "lastModificationDate": 1730926092669,
+      "contentHash": "4f350c024fca4d502f9639d4652708e5",
+      "sourceName": "contracts/Presale.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "Context",
+        "IERC20",
+        "Ownable",
+        "Presale",
+        "SafeMath"
+      ]
     }
   }
 }
