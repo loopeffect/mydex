@@ -2,6 +2,7 @@ const { expect } = require("chai");
 const { ethers } = require("hardhat");
 
 
+
 describe("Rfc Token", function () {
     let Rfc;
     let rfc;

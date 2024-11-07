@@ -31,4 +31,13 @@ ul.navbar-nav {
  .navbar-toggler{
   border: none;
  }
+ .navbar-collapse {
+  transition: max-height 2.3s ease-in-out;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.navbar-collapse.show {
+  max-height: 300px; /* Adjust as needed */
+}
   

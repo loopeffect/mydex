@@ -27,7 +27,7 @@ function Navbar() {
         <div
           className={`collapse navbar-collapse   
  ${isNavbarCollapsed ? 'show' : ''}`}
-          id="navbarNav"
+          
         >
 
 
